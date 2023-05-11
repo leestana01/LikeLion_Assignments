@@ -1,0 +1,78 @@
+.header {
+    background:rgb(40, 40, 40);
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerDescription {
+    margin-left: 30px;
+}
+
+.headerSideMenu {
+    list-style:none;
+}
+.headerSideMenu ul li {
+    display: inline;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.header a{
+    text-decoration: none; 
+    color: white;
+    font-weight:bold;
+    transition: color 1s;
+}
+.header a:visited, .header a:linked {
+    color: white;
+}
+  
+.header a:hover {
+    color: violet;
+}
+
+
+
+.main {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding-top: 43%;
+    overflow: auto; /* 스크롤바 추가 */
+}
+.layout1, .layout2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.layout1 {
+    background: white;
+    height: 60vh;
+    width: 65%;
+    border:2px;
+    border-style: solid;
+}
+.layout2 {
+    background: linear-gradient(45deg, violet, rgb(61, 61, 206));
+    height: 60vh;
+    width: 35%;
+    left:65%;
+    border:2px;
+    border-style: solid;
+}
+
+
+.layout1_content {
+    margin-left: 30px;
+}
+
+.circle-photo {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+  }

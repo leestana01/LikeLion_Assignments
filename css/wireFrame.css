@@ -1,0 +1,48 @@
+.header {
+    background:rgb(40, 40, 40);
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerDescription {
+    margin-left: 30px;
+}
+
+.headerSideMenu {
+    list-style:none;
+}
+.headerSideMenu ul li {
+    display: inline;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.header a{
+    text-decoration: none; 
+    color: white;
+    font-weight:bold;
+    transition: color 1s;
+}
+.header a:visited, .header a:linked {
+    color: white;
+}
+  
+.header a:hover {
+    color: violet;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wireFrame {
+    position: absolute;
+    top: 160px; /* 메뉴바 높이  */
+    max-width: 100%;
+    max-height: calc(100% - 160px);
+
+}
